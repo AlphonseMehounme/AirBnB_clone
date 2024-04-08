@@ -14,6 +14,6 @@ header {
 header div {
 	height: 70px;
 	width: 140px;
-	background-image: url("../images/logo.png");
+	background-image: url(../images/logo.png);
 	background-repeat: no-repeat;
 }
