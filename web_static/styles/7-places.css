@@ -6,14 +6,16 @@ Places
 
 .places {
     margin: 0 20px;
+    text-align: center;
 }
 .places h1 {
     font-size: 30px;
+    text-align: left;
 }
 
 .places article {
     width: 390px;
-    padding: 20px;
+    padding: 0 20px;
     margin: 20px;
     border: 1px solid #FF5A5F;
     border-radius: 4px;
@@ -21,6 +23,7 @@ Places
 }
 
 .places article h2 {
+    margin: 15px 0;
     font-size: 30px;
     text-align: center;
 }
