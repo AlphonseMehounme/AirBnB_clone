@@ -8,6 +8,7 @@ Places
     margin: 0 20px;
     text-align: center;
 }
+
 .places h1 {
     font-size: 30px;
     text-align: left;
@@ -44,11 +45,13 @@ Places
     height: 80px;
     border-top: 1px solid #DDDDDD;
     border-bottom: 1px solid #DDDDDD;
+    text-align: center;
 }
 
 .max_guest, .number_rooms, .number_bathrooms {
     width: 100px;
     display: inline-block;
+    text-align: center;
 }
 
 .max_guest div {
@@ -56,6 +59,7 @@ Places
     width: 60px;
     background-image: url("../images/icon_group.png");
     background-repeat: no-repeat;
+    margin-left: 30px;
 }
 
 .number_rooms div {
@@ -63,6 +67,7 @@ Places
     width: 60px;
     background-image: url("../images/icon_bed.png");
     background-repeat: no-repeat;
+    margin-left: 25px;
 }
 
 .number_bathrooms div {
@@ -70,4 +75,20 @@ Places
     width: 60px;
     background-image: url("../images/icon_bath.png");
     background-repeat: no-repeat;
+}
+
+.places article .user, .places article .description {
+    text-align: left;
+}
+
+.places article .user span {
+    font-weight: bold;
+}
+
+.places article .description {
+    height: 100px;
+}
+
+.col-1-3 {
+    width: 33.33%;
 }
