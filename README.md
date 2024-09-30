@@ -52,9 +52,10 @@ This implementation works like this in interactive mode:
 $ ./console.py
 (hbnb) help
 
-Documented commands (type help <topic>):
-========================================
-EOF  help  quit
+ Documented commands (type help <topic>):
+?========================================
+EOF hel quit
+
 
 (hbnb) 
 (hbnb) 
@@ -66,7 +67,7 @@ $ echo "help" | ./console.py
 (hbnb)
 
 Documented commands (type help <topic>):
-========================================
+?========================================
 EOF  help  quit
 (hbnb) 
 $
@@ -77,7 +78,7 @@ $ cat test_help | ./console.py
 (hbnb)
 
 Documented commands (type help <topic>):
-========================================
+?========================================
 EOF  help  quit
 (hbnb) 
 $
